@@ -11,4 +11,5 @@ const Admin = mongoose.Schema(
             required:true
         }
     }
-    )
+)
+export default mongoose.model("admin",Admin)
